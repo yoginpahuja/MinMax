@@ -13,5 +13,10 @@ public class Main {
         System.out.println("Maximum of 1.3, 2.4, 3.5: " + MaxMin.findMax(1.3, 2.4, 3.5)); // tc 2.1
         System.out.println("Maximum of 3.5, 1.3, 2.4: " + MaxMin.findMax(3.5, 1.3, 2.4)); // tc 2.2
         System.out.println("Maximum of 1.3, 3.5, 2.4: " + MaxMin.findMax(1.3, 3.5, 2.4)); // tc 2.3
+
+        System.out.println("String Max");
+        System.out.println("Maximum of Apple, Banana, Peach: " + MaxMin.findMax("Apple", "Banana", "Peach")); // tc 3.1
+        System.out.println("Maximum of Peach, Apple, Banana: " + MaxMin.findMax("Peach","Apple", "Banana")); // tc 3.2
+        System.out.println("Maximum of Apple, Peach, Banana: " + MaxMin.findMax("Apple", "Peach", "Banana")); // tc 3.3
     }
 }
