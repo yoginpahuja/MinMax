@@ -1,5 +1,3 @@
-
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Max Min program!");
@@ -18,5 +16,7 @@ public class Main {
         System.out.println("Maximum of Apple, Banana, Peach: " + MaxMin.findMax("Apple", "Banana", "Peach")); // tc 3.1
         System.out.println("Maximum of Peach, Apple, Banana: " + MaxMin.findMax("Peach","Apple", "Banana")); // tc 3.2
         System.out.println("Maximum of Apple, Peach, Banana: " + MaxMin.findMax("Apple", "Peach", "Banana")); // tc 3.3
+
+        System.out.println(MaxMin.findMax(2, 3, 340, 5, 42)); //multiple parameters
     }
 }
